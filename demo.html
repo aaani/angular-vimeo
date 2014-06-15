@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app="myapp">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.min.js"></script>
+    <script src="angular-vimeo-embed.js"></script>
+    <script>
+    var app = angular.module('myapp', ['vimeo']);
+    </script>    
+    <meta charset="utf-8">
+    <title>Vimeo demo</title>
+</head>
+  <body>
+    <div style="width:400px;height:300px;" videoId="44255551" vimeo-player>Loading video...</div> 
+    <!--The dimensions of the embedded video are same as the dimestions of the enclosing element-->
+  </body>
+</html>
