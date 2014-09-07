@@ -21,7 +21,6 @@ angular.module('vimeo', [])
                     element[0].innerHTML = unescape(vidHTML);
                     element[0].children[0].height = h;   
                     element[0].children[0].width = w; 
-                        
                 }).
                 error(function(data, status, headers, config) {
                     console.log("angular-vimeo: Unable to load video from "+vidUrl);
